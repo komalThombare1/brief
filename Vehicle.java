@@ -2,13 +2,17 @@ class Vehicle {
   protected String brand = "Ford";        // Vehicle attribute
   public void honk() {                    // Vehicle method
     System.out.println("Tuut, tuut!");
+    
+    System.out.println("done done!");
   }
 }
 
 class Car extends Vehicle {
   private String modelName = "Mustang";    // Car attribute
   public static void main(String[] args) {
-
+     
+    String s="i20";
+    System.out.println(s);
     // Create a myCar object
     Car myCar = new Car();
 
