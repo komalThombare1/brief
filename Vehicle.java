@@ -3,7 +3,7 @@ class Vehicle {
   public void honk() {                    // Vehicle method
     System.out.println("Tuut, tuut!");
     
-    System.out.println("done done!");
+    
   }
 }
 
